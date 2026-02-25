@@ -851,7 +851,7 @@ toggletheme() 切换主题
 			<icon class="s-icon"></icon>
 			<icon class="s-icon"></icon>
 		</div>
-		<div class="a dock date" onclick="openDockWidget('datebox')">
+		<div class="a dock date" onclick="openDockWidget('datebox'); getLunar();">
 			<!--日期-->
 			<p class="time">12:34:56</p>
 			<p class="date">2022/10/01</p>
@@ -1849,6 +1849,10 @@ toggletheme() 切换主题
 			<div class="cnt update">
 				<h1 class="tit" data-i18n="about.update.name"><span></span>更新记录</h1>
 				<div style="margin-left: 20px;">
+					<details><summary><span>v10.1.0</span>增加对农历的支持</summary><p>
+						&emsp;&emsp;-(更新来自 @stxttkx & @lingbopro)<br>
+						&emsp;&emsp;-现已可以显示农历日期。<br>
+					</p></details>
 					<details><summary><span>v10.0.9</span> 修复了一些已知问题</summary><p>
 						&emsp;&emsp;-(更新来自 @tangyuan0821)<br>
 						&emsp;&emsp;-修复了一些已知问题。<br>
